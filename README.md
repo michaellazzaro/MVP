@@ -1,26 +1,26 @@
 ## Heading ##
-  > Name the product in a way the reader (i.e. your target customers) will understand.
+  > Personalized Pep Talk
 
 ## Sub-Heading ##
-  > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  > This product is to cheer people up when they aren't feeling good enough.
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > You input your name and the app generates a personalized paragraph that is meant to lift your spirits.
 
 ## Problem ##
-  > Describe the problem your product solves.
+  > If you're feeling down and have nobody to talk to, this app can help.
 
 ## Solution ##
-  > Describe how your product elegantly solves the problem.
+  > This app makes you feel good about yourself.
 
 ## Quote from You ##
-  > A quote from a spokesperson in your company.
+  > "You Can Do It!" - Michael Lazzaro(owner)
 
 ## How to Get Started ##
-  > Describe how easy it is to get started.
+  > It's super easy to get started. Just type your name into to box and press "Go".
 
 ## Customer Quote ##
-  > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  > "I was feeling miserable. Then, I found Personalized Pep Talk and it brought a smile to my face." -Rob
 
 ## Closing and Call to Action ##
-  > Wrap it up and give pointers where the reader should go next.
+  > Check out my new app "Personalized Put-downs"''
