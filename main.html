@@ -2,4 +2,10 @@
   <div>
     <input type="text" ng-model='firstname' placeholder="enter your firstname..."/>
     <input type="text" ng-model='lastname' placeholder="enter your lastname..."></input>
+    <button ng-click='showme=true; tryagain=true;' ng-show='!tryagain'>Go</button>
+    <button ng-click='showme=false; tryagain=false; video=false; firstname= ""; lastname=""' ng-show='tryagain'>Do it again</button>
+  </div>
+  <p class="message" ng-show='showme'>
+    Look <span class="firstname">{{firstname}}</span>, you rock! That's all there is to it. <span class="firstname">{{firstname}}</span> is latin for "the super awesome one". And don't even get me started on the <span class="lastname">{{lastname}}</span> clan. The ancient <span class="lastname">{{lastname}}</span>'s invented the internet back in 42 B.C.! 
+  </p>
 </div>
