@@ -1,0 +1,59 @@
+h1{
+  color: black;
+  background: lightgray;
+  text-align: center;
+  text-shadow: 2px 2px chartreuse;
+  border-radius: 15px;
+  width: 500px;
+  margin: 0 auto;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+}
+.message{
+  font-size: 30px
+  /*background: lightgray;*/
+}
+
+.firstname{
+  font-weight: 800;
+  color: black;
+  text-shadow: 2px 2px chartreuse;}
+.lastname{
+  font-weight: 800;
+  color: black;
+text-shadow: 2px 2px chartreuse;}
+
+input{
+  margin: 0 auto;
+  width: 200px;
+  display: block;
+  font-size: 20px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background: chartreuse;
+}
+button{
+  width: 75px;
+  height: 21px;
+  display: block;
+  margin: 0 auto;
+  font-style: italic;
+  font-weight: bold;
+
+  /*border-radius: 10px*/
+}
+button:hover{
+  color: chartreuse;
+  background: black;
+  border-radius: 6px;
+}
+
+.message{
+  text-align: center;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+}
