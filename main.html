@@ -1,12 +1,12 @@
 <div ng-controller="mainController as mC">
   <div>
-    <input type="text" ng-model='firstname' placeholder="enter your firstname..."/>
-    <input type="text" ng-model='lastname' placeholder="enter your lastname..."></input>
-    <button ng-click='showme=true; tryagain=true;' ng-show='!tryagain'>Go</button>
-    <button ng-click='showme=false; tryagain=false; video=false; firstname= ""; lastname=""' ng-show='tryagain'>Do it again</button>
+    <input type="text" ng-show='first' ng-model='firstname' placeholder="enter your firstname..."/>
+    <input type="text" ng-show='last' ng-model='lastname' placeholder="enter your lastname..."></input>
+    <button ng-click='toggle()' ng-show='!tryagain'>Do it</button>
+    <button ng-click='toggle()' ng-show='tryagain' >Do it again</button>
   </div>
   <p class="message" ng-show='showme'>
-    Look <span class="firstname">{{firstname}}</span>, you rock! That's all there is to it. <span class="firstname">{{firstname}}</span> is latin for "the super awesome one". And don't even get me started on the <span class="lastname">{{lastname}}</span> clan. The ancient <span class="lastname">{{lastname}}</span>s invented the internet back in 42 B.C.! So, when you're feeling down, just remember <a href='' ng-click="showme=false; video=true">these</a> wise words.
+    Look <span class="firstname">{{firstname}}</span>, you rock! That's all there is to it. <span class="firstname">{{firstname}}</span> is latin for <em>"the super awesome one"</em>. And don't even get me started on the <span class="lastname">{{lastname}}</span> clan. The ancient <span class="lastname">{{lastname}}</span><span>s</span> invented the internet back in 42 B.C.! So, cheer up! And just remember <a href='' ng-click="showme=false; video=true">these</a> words from a very wise man.
   </p>
 
   <div class="video" ng-if='video'>

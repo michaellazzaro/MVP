@@ -14,14 +14,21 @@ h1{
   /*background: lightgray;*/
 }
 
-.firstname{
+span{
   font-weight: 800;
   color: black;
   text-shadow: 2px 2px chartreuse;}
+}
+.firstname{
+  font-weight: 800;
+  color: black;
+  text-shadow: 2px 2px chartreuse;
+}
 .lastname{
   font-weight: 800;
   color: black;
-text-shadow: 2px 2px chartreuse;}
+text-shadow: 2px 2px chartreuse;
+}
 
 input{
   margin: 0 auto;
@@ -41,7 +48,6 @@ button{
   font-style: italic;
   font-weight: bold;
 
-  /*border-radius: 10px*/
 }
 button:hover{
   color: chartreuse;
@@ -53,6 +59,9 @@ button:hover{
   text-align: center;
 }
 
+.video{
+  margin-top: 20px;
+}
 iframe{
   display: block;
   margin: 0 auto;
